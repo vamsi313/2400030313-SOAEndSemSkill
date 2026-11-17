@@ -1,0 +1,11 @@
+request:
+  method: GET
+  url: /endpoint/MS1/add
+  queryParameters:
+    A: 10
+    B: 10
+response:
+  status: 200
+  body: "MS1.1 addition = 15"
+  headers:
+    Content-Type: "text/plain;charset=UTF-8"
